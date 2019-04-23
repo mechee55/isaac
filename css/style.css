@@ -524,6 +524,14 @@ display: block;
 }
 
 
+@media (max-width: 500px) {
+  .placeholder {
+    top: -50px;
+    width: 80%;
+    
+  }
+}
+
 .scroll_bottom {
   display: block;
   text-align: center;
@@ -1709,3 +1717,4 @@ overflow: hidden;
 }
 
 /*END Blog Single*/
+

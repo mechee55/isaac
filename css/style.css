@@ -524,7 +524,7 @@ display: block;
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .placeholder {
     top: -50px;
     width: 80%;

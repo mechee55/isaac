@@ -261,6 +261,9 @@ section .section_header h2::after {
 }
 
 
+
+
+
 /* Original Code */
 /* .head_bg .mnu_line .nav_block, 
 .blog_head_bg .mnu_line .nav_block{
@@ -277,8 +280,8 @@ section .section_header h2::after {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #fff;
-  z-index: 100;
+  background-color: rgb(221, 221, 221);
+  z-index: 100000000;
 
 }
 
@@ -509,28 +512,7 @@ display: block;
   transition: all .3s linear;
 }
 
-/* added new  */
-.placeholder {
-  width: 60%;
-  float: right;
-  position: relative;
-  top: -350px;
 
-  
-}
-
-.placeholder img {
-  width: 100%;
-}
-
-
-@media (max-width: 600px) {
-  .placeholder {
-    top: 450px;
-    width: 80%;
-    
-  }
-}
 
 .scroll_bottom {
   display: block;

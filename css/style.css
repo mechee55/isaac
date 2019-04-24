@@ -280,7 +280,7 @@ section .section_header h2::after {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(221, 221, 221);
+  background-color: #f0f0f0;
   z-index: 100000000;
 
 }
@@ -411,7 +411,7 @@ section .section_header h2::after {
   display: block;
 z-index: 10;
 position: relative;
-background-color: rgb(221, 221, 221);
+background-color:#f0f0f0;
 
 
 }

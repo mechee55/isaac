@@ -680,6 +680,8 @@ section .section_padding {
   padding-bottom: 30px;
 }
 
+
+
 /* counter -------------------------------*/
 #counter {
   padding: 40px 0 50px 0;
@@ -694,6 +696,8 @@ section .section_padding {
     text-transform: uppercase;}
 
 /* Portfolio ---------------------------*/
+/* CV section */
+
 .section-title{
     text-align: center;
     padding: 0px 0 40px 0;
@@ -748,12 +752,12 @@ section .section-title .section_header{
 }
 
 /* added new */
-
-.cv-section  {
+.cv-wrapper {
   display: flex;
-  justify-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 900px;
 }
-
 
 
 /* END Portfolio */
@@ -1053,6 +1057,11 @@ footer {
 }
 
 /* Copyright */
+.copyright {
+  padding-top: 20px;
+}
+
+
 .copyright p{
   color: #979797;
   font-size: 1.4rem;

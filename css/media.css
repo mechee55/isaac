@@ -1,33 +1,99 @@
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  /**/ }
+  .logo {
+    font-size: 2.5rem;
+ }
+
+  .small_screen {
+    padding: 10px 30px;
+  }
+
+  .cv {
+    width: 100%;
+  }
+
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  .logo {
+  font-size: 2rem;
+ }
+
+}
+
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .head_bg .mnu_line .logo {
-    text-align: left; }
+    text-align: left;
+   }
+
+   .logo {
+    font-size: 2rem;
+   }
+
   .logo_img a {
-    background: transparent url('../img/logo.png') no-repeat center center; }
+    background: transparent url('../img/logo.png') no-repeat center center; 
+  }
   footer .logo a {
-      color: #588792; }
+      color: #588792;
+  }
   .head_bg .content_head .scroll_bottom {
     padding-top: 20%; }
   .blog-section-bg .blog-content,
   .blog-single-bg .blog-content {
     margin-right: 0px;
-} }
+  }
+  
+  /* newly added  */
+  .cv-wrapper {
+    width: 90%;
+    height: 800px;
+
+  }
+
+
+/* new media query added by me */
+
+@media only screen and (min-width: 641px) 
+and (max-width:767px) {
+  .small_screen {
+    padding: 20px 10px;
+    text-align: justify;
+  } 
+
+  .toggle-mnu {
+    right: 22px;
+    top: 3px;
+  }
+
+  .toggle-mnu span, .toggle-mnu span::after, .toggle-mnu span::before {
+    background-color: #000;
+    height: 3px;
+  }
+
+  .cv-wrapper {
+    width: 98%;
+    height: 800px;
+  }
+
+  
+}
+
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 640px) {
 
   .small_screen {
     padding: 20px 10px;
-    text-align: center;
+    text-align: justify;
   } 
 
   section .section_header {
@@ -68,6 +134,20 @@
   .blog_read_more {
     padding-top: 0;
   }
+
+  .cv-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    height: 600px;
+    background-color: pink;
+  
+  }
+
+  .cv {
+    width: 100%;
+  }
+
 
   #contact {
     padding: 50px 0 40px 0;

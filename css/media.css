@@ -55,7 +55,22 @@
   .cv-wrapper {
     width: 90%;
     height: 800px;
+  }
 
+  .download-button {
+    margin-bottom: 15px;
+  }
+  
+  .button-decoration {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .button-decoration a {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: black;
   }
 
 
@@ -147,6 +162,21 @@ and (max-width:767px) {
   }
 
 
+  .download-button {
+    margin-bottom: 13px;
+  }
+  
+  .button-decoration {
+    padding: 8px 17px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .button-decoration a {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: black;
+  }
   #contact {
     padding: 50px 0 40px 0;
   }

@@ -765,14 +765,26 @@ section .section-title .section_header{
 
 .button-decoration {
   padding: 15px 25px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
+}
+
+.button-decoration:hover {
+  background-color: rgba(0, 0, 0, 0.199);
+  -webkit-transition: all .3s linear;
+  border: 0px solid rgba(0, 0, 0, 0.199);
 }
 
 .button-decoration a {
   font-weight: 600;
   font-size: 1.7rem;
   color: black;
+}
+
+.button-decoration a:hover {
+  font-size: 1.8rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
 }
 
 

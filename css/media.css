@@ -10,11 +10,15 @@
     padding: 10px 30px;
   }
 
-  .cv-container {
+  .cv-container{
+  width: 67%;
+}
+
+  /* .cv-container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
   
 
 /* Medium Devices, Desktops */
@@ -31,16 +35,18 @@
   z-index: 10000;
   }
 
-  .cv-container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  .cv-container{
+    width: 67%;
+  }
+}
+
+@media only screen and (min-width: 769px) 
+and (max-width:991px) {
+  .cv-container{
+    width: 88%;
   }
 
 }
-
-
-
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -73,10 +79,8 @@
     margin-right: 0px;
   }
   
-
-  /* added new by me (max-width: 768px)*/
-  .cv-container {
-    width: 100%;
+  .cv-container{
+    width: 88%;
   }
   
   .download-button {
@@ -94,6 +98,7 @@
     font-size: 1.6rem;
     color: black;
   }
+
 
 
 /* new media query added by me */
@@ -123,13 +128,9 @@ and (max-width:767px) {
     background-color: #000;
     height: 3px;
   }
-
-  .cv-container {
+  .cv-container{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
-  
 }
 
 
@@ -175,14 +176,7 @@ and (max-width:767px) {
     padding: 20px 0;
   }
 
-  
-  .cv-container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .cv {
+  .cv-container{
     width: 100%;
   }
 
@@ -293,47 +287,12 @@ and (max-width:767px) {
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
 
-.breadcrumb { padding: 20px 0; }
-
-/* .blog-pagination li.back:after { 
-  display: none; 
+.breadcrumb { 
+  padding: 20px 0; 
 }
 
-.blog-pagination li:not(.arrow) { 
-  display: inline-block; 
-} 
 
-.blog-wrapper .blog-pagination { 
-  border: solid 1px #EAEAEA; 
-  padding: 15px 0;
-  }
-
-.blog_block { 
-  width: auto; 
-  padding-top: 0; 
 }
-
-.blog_block 
-.brief-content { 
-  width: 350px; 
-  position: absolute; 
-  top: 40px; 
-  right: 0; 
-  margin-left: 0; 
-  margin-right: 0; 
-}
-
-.blog_block 
-.blog-img-frame { 
-  position: relative; 
-}
-
-.blog-wrapper .single-blog { 
-  padding-top: 80px; 
-  padding-bottom: 80px;
-  } */
-
-  /**/ }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {

@@ -606,7 +606,7 @@ display: block;
 #about {
   padding-top: 50px 0;
   text-align: center;
-  z-index: 1;
+  z-index: 9;
 }
 
 #about p {
@@ -618,6 +618,9 @@ display: block;
 
 
 /* Portfolio  / CV section */
+#portfolio  {
+  z-index: 8;
+}
 .section-title{
     text-align: center;
     padding: 0px 0 40px 0;
@@ -707,6 +710,9 @@ section .section-title .section_header{
 
 
 /* Blog / Current Works Starts */
+#blog {
+  z-index: 7;
+}
 .blog-title {
   margin-bottom: 20px;
 }
@@ -723,6 +729,10 @@ section .section-title .section_header{
 
 
 /* Contact -----------------------------*/
+#contact {
+  z-index: 6;
+}
+
 #contact .section_header{
   margin-bottom: 30px; }
 

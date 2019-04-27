@@ -26,6 +26,15 @@
     padding: 10px 30px;
   }
 
+  cv-wrapper {
+    height: 700px;
+    /* padding-bottom: 56.25%; */
+     /* play with this until right */
+    margin-left: 0px;
+    /* overflow: hidden; */
+    position: relative;
+  }
+
 
 
 /* Medium Devices, Desktops (769px - 992px  */
@@ -53,11 +62,6 @@
 
 @media only screen and (min-width: 769px) 
 and (max-width:991px) {
-  /* .cv-container{
-    background-color: rgba(255, 255, 0, 0.329);
-    width: 98%;
-    margin: 0px auto;
-  } */
   
 }
 
@@ -93,8 +97,7 @@ and (max-width:991px) {
   .blog-single-bg .blog-content {
     margin-right: 0px;
   }
-  
-  
+
   
   .download-button {
     margin-bottom: 15px;
@@ -154,7 +157,7 @@ and (max-width:767px) {
     top: 0;
     width: 100%;
     background-color: #f0f0f0;
-    z-index: 10000;
+    z-index: 100000;
   }
 
   .small_screen {

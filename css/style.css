@@ -280,7 +280,7 @@ section .section_header h2::after {
   top: 0;
   width: 100%;
   background-color: #f0f0f0;
-  z-index: 10000;
+  z-index: 1000000;
 
 }
 

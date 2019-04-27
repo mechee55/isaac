@@ -279,7 +279,7 @@ section .section_header h2::after {
 .sticky_navbar {
   position: fixed;
   top: 0;
-  
+  left: 0;
   width: 100%;
   background-color: #f0f0f0;
   z-index: 1000000;

@@ -50,7 +50,7 @@
     }
 
     .cv-wrapper {
-      height: 600px;
+      height: 500px;
     }
 
  }
@@ -200,7 +200,7 @@ and (max-width:767px) {
   }
   
   .cv-wrapper {
-    height: 600px;
+    height: 400px;
     /* padding-bottom: 56.25%; */
      /* play with this until right */
     margin-left: 0px;

@@ -45,11 +45,13 @@
 
     .cv-container{
       background-color: rgba(255, 255, 0, 0.329);
-      width: 90%;
+      width: 80%;
       margin: 0px auto;
     }
 
-
+    .cv-wrapper {
+      height: 600px;
+    }
 
  }
 
@@ -193,26 +195,17 @@ and (max-width:767px) {
 
   .cv-container{
     background-color: rgba(255, 255, 0, 0.329);
-    width: 95%;
+    width: 100%;
     margin: 0px auto;
   }
   
   .cv-wrapper {
-    width: 100%;
-    height: 800px;
+    height: 600px;
     /* padding-bottom: 56.25%; */
      /* play with this until right */
     margin-left: 0px;
     /* overflow: hidden; */
     position: relative;
-  }
-  
-  .cv-wrapper iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
   }
   
 

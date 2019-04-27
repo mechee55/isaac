@@ -44,13 +44,6 @@
     font-size: 2rem;
  }
 
-  .sticky_navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #f0f0f0;
-    z-index: 10000;
-    }
 
     .cv-container{
       background-color: rgba(255, 255, 0, 0.329);
@@ -69,14 +62,7 @@ and (max-width:991px) {
 
 
 @media only screen and (max-width: 768px) {
-  .sticky_navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #f0f0f0;
-    z-index: 10000;
-  }
-
+  
   .head_bg .mnu_line .logo {
     text-align: left;
    }
@@ -152,13 +138,7 @@ and (max-width:767px) {
 /* Phones (000 - 640px) */
 
 @media only screen and (max-width: 640px) {
-  .sticky_navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #f0f0f0;
-    z-index: 100000;
-  }
+  
 
   .small_screen {
     padding: 20px 10px;

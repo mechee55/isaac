@@ -50,7 +50,7 @@
     }
 
     .cv-wrapper {
-      height: 500px;
+      height: 600px;
     }
 
  }
@@ -200,7 +200,7 @@ and (max-width:767px) {
   }
   
   .cv-wrapper {
-    height: 400px;
+    height: 600px;
     /* padding-bottom: 56.25%; */
      /* play with this until right */
     margin-left: 0px;
@@ -224,6 +224,15 @@ and (max-width:767px) {
     font-size: 1.5rem;
     color: black;
   }
+
+/* Papers */
+
+  
+
+
+
+/* Contact */
+
   #contact {
     padding: 50px 0 40px 0;
     /* padding: 50px 0 25px 0; */

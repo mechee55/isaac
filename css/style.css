@@ -708,6 +708,9 @@ section .section-title .section_header{
 
 
 /* Blog / Current Works Starts */
+.blog-title {
+  margin-bottom: 20px;
+}
 
 .italic {
   font-style: italic;

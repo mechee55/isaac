@@ -26,30 +26,6 @@
     padding: 10px 30px;
   }
 
-  .cv-container{
-    background-color: rgba(255, 255, 0, 0.329);
-    width: 80%;
-    margin: 0px auto;
-  }
-  
-  .cv-wrapper {
-    width: 100%;
-    height: 800px;
-    /* padding-bottom: 56.25%;  */
-    /* play with this until right */
-    margin-left: 0px;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .cv-wrapper iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
 
 
 /* Medium Devices, Desktops (769px - 992px  */
@@ -87,7 +63,7 @@ and (max-width:991px) {
   
 }
 
-/* Small Devices, Tablets ( 000px - 768px) */
+/* Small Devices, P0rtrait Tablets ( 000px - 768px) */
 
 
 @media only screen and (max-width: 768px) {
@@ -120,28 +96,8 @@ and (max-width:991px) {
     margin-right: 0px;
   }
   
-  .cv-container{
-    background-color: rgba(255, 255, 0, 0.329);
-    width: 95%;
-    margin: 0px auto;
-  }
   
-  .cv-wrapper {
-    width: 100%;
-    height: 800px;
-    padding-bottom: 56.25%; /* play with this until right */
-    margin-left: 0px;
-    overflow: hidden;
-    position: relative;
-  }
   
-  .cv-wrapper iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
   .download-button {
     margin-bottom: 15px;
   }
@@ -192,7 +148,7 @@ and (max-width:767px) {
 
 
 
-/* Extra Small Devices, Phones (000 - 640px) */
+/* Phones (000 - 640px) */
 
 @media only screen and (max-width: 640px) {
   .sticky_navbar {
@@ -234,6 +190,31 @@ and (max-width:767px) {
     padding: 20px 0;
   }
 
+
+  .cv-container{
+    background-color: rgba(255, 255, 0, 0.329);
+    width: 80%;
+    margin: 0px auto;
+  }
+  
+  .cv-wrapper {
+    width: 100%;
+    height: 800px;
+    /* padding-bottom: 56.25%; */
+     /* play with this until right */
+    margin-left: 0px;
+    /* overflow: hidden; */
+    position: relative;
+  }
+  
+  .cv-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
 
   .download-button {
     margin-bottom: 13px;

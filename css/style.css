@@ -327,8 +327,7 @@ section .section_header h2::after {
   top: 0;
   left: 0;
   width: 100%;
-  /* background-color: #f0f0f0; */
-  background-color: rgb(226, 242, 247);
+  background-color: #f0f0f0;
   z-index: 1000;
 }
 

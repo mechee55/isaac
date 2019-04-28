@@ -47,10 +47,8 @@
 
   .cv-container{
     width: 80%;
-    margin: 0px auto;
   }
-
- }
+}
 
 
 /* 
@@ -74,6 +72,7 @@ and (max-width:991px) {
   .logo_img a {
     background: transparent url('../img/logo.png') no-repeat center center; 
   }
+
   footer .logo a {
       color: #588792;
   }
@@ -83,7 +82,6 @@ and (max-width:991px) {
   .blog-single-bg .blog-content {
     margin-right: 0px;
   }
-
   
   .download-button {
     margin-bottom: 15px;
@@ -169,19 +167,15 @@ and (max-width:767px) {
 
   .cv-container{
     width: 100%;
-    margin: 0px auto;
   }
   
   .cv-wrapper {
     height: 600px;
     /* padding-bottom: 56.25%; */
      /* play with this until right */
-    margin-left: 0px;
     /* overflow: hidden; */
-    position: relative;
   }
   
-
   .download-button {
     margin-bottom: 13px;
   }

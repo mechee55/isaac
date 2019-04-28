@@ -123,6 +123,7 @@ a {
   transition: all 0.3s linear;
 }
 
+#home,
 #about,
 #blog,
 #portfolio {

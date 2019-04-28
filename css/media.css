@@ -2,7 +2,8 @@
 /*==========  Desktop First  ==========*/
 
 
-/* Large Devices, Wide Screens */
+/* -------------------- Large Devices, Wide Screens ------------------------ */
+
 @media only screen and (min-width: 1200px) {
     
  }
@@ -15,7 +16,7 @@
 
 
 
-/* Large Devices, Wide Screens */
+/* --------------------- Large Devices: max-width: 1200px -----------------------*/
 
 @media only screen and (max-width: 1200px) {
   .logo {
@@ -37,29 +38,28 @@
 
 
 
-/* Medium Devices, Desktops (769px - 992px  */
+/* ------------------ Medium Devices, Desktops (769px - 992px)-------------------- */
 
 @media only screen and (max-width: 992px) {
   .logo {
     font-size: 2rem;
  }
 
-
-    .cv-container{
-      background-color: rgba(255, 255, 0, 0.329);
-      width: 80%;
-      margin: 0px auto;
-    }
+  .cv-container{
+    width: 80%;
+    margin: 0px auto;
+  }
 
  }
 
+
+/* 
 @media only screen and (min-width: 769px) 
 and (max-width:991px) {
   
-}
+} */
 
-/* Small Devices, P0rtrait Tablets ( 000px - 768px) */
-
+/* -------------- Small Devices, P0rtrait Tablets ( 000px - 768px) -----------------*/
 
 @media only screen and (max-width: 768px) {
   
@@ -67,7 +67,7 @@ and (max-width:991px) {
     text-align: left;
    }
 
-   .logo {
+  .logo {
     font-size: 2rem;
    }
 
@@ -103,18 +103,10 @@ and (max-width:991px) {
 
 
 
-/* new media query added by me */
+/* ------ new media query added by me (min-width: 641px - max-width: 767px) ------*/
 
 @media only screen and (min-width: 641px) 
 and (max-width:767px) {
-  .sticky_navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #f0f0f0;
-    z-index: 10000;
-  
-  }
 
   .small_screen {
     padding: 20px 10px;
@@ -135,14 +127,17 @@ and (max-width:767px) {
 
 
 
-/* Phones (000 - 640px) */
+/* ------------------- Phones (000 - 640px) ------------------------- */
 
-@media only screen and (max-width: 640px) {
-  
+@media only screen and (max-width: 640px) {  
+  #about p, #blog p {
+    font-size: 1.5rem;
+  }
 
   .small_screen {
     padding: 20px 10px;
-    text-align: justify;
+    /* text-align: justify; */
+    word-spacing: 0.2rem;
   } 
 
   section .section_header {
@@ -173,7 +168,6 @@ and (max-width:767px) {
 
 
   .cv-container{
-    background-color: rgba(255, 255, 0, 0.329);
     width: 100%;
     margin: 0px auto;
   }
@@ -204,20 +198,13 @@ and (max-width:767px) {
     color: black;
   }
 
-/* Papers */
-
-  
-
-
-
-/* Contact */
-
   #contact {
     padding: 50px 0 40px 0;
     /* padding: 50px 0 25px 0; */
+
     }
   }
-  }
+
   #contact .contact_block .col-md-4 {
     padding: 20px 0;
   }
@@ -250,6 +237,8 @@ and (max-width:767px) {
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   /**/ }
+
+
 
 
 

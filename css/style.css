@@ -322,7 +322,7 @@ section .section_header h2::after {
 
 /* added */
 
-.sticky_navbar {
+.mnu_line .sticky_navbar {
   position: fixed;
   top: 0;
   left: 0;

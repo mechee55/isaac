@@ -123,7 +123,6 @@ a {
   transition: all 0.3s linear;
 }
 
-#home,
 #about,
 #blog,
 #portfolio {
@@ -323,7 +322,7 @@ section .section_header h2::after {
 
 /* added */
 
-.mnu_line .sticky_navbar {
+.sticky_navbar {
   position: fixed;
   top: 0;
   left: 0;

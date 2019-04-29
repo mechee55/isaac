@@ -127,7 +127,7 @@ a {
 #blog,
 #portfolio {
   padding: 100px 0;
-  z-index: 10;
+  z-index: 9;
 }
 
 #contact {
@@ -556,6 +556,7 @@ section .section_header h2::after {
 #about {
   padding-top: 50px 0;
   text-align: left;
+  z-index: 9;
 }
 
 #about p {

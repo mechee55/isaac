@@ -322,7 +322,7 @@ section .section_header h2::after {
 
 /* added */
 
-.sticky_navbar {
+.fixed_navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -383,8 +383,11 @@ section .section_header h2::after {
 .head_bg {
   position: relative;
   color: #000;
-  overflow: hidden;
-  z-index: 11;
+
+  /* these 2 lines below make the fixed nav bar disappear
+  when scrolled(on Safari) */
+  /* overflow: hidden;
+  z-index: 11; */
 }
 
 .head_bg .content_head {
@@ -633,9 +636,9 @@ section .section-title .section_header {
   margin-bottom: 20px;
 }
 
-.italic {
+.italic-regular {
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .content p {

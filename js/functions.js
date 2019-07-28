@@ -46,7 +46,7 @@ $(window).on("load", function() {
     return false;
   });
 
-  // I can't believe I wrote this code myself...
+  // new code added on 7/27 to make the mobile menu disappear after clicking
 
   $(".mnu_menu li a").on("click", function() {
     $(".top_mnu").slideToggle();
